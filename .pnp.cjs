@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:66a38074c01dbe8d4e1c5f31866afe6519c5caf2716b759f13adfda95e4ea400f888a7baebe1f49c1319977e90dfcfa2e68e48add18eea4caaf0cfffe2a2ff07#npm:13.5.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:66a38074c01dbe8d4e1c5f31866afe6519c5caf2716b759f13adfda95e4ea400f888a7baebe1f49c1319977e90dfcfa2e68e48add18eea4caaf0cfffe2a2ff07#npm:18.2.0"],\
+            ["react-router-dom", "virtual:66a38074c01dbe8d4e1c5f31866afe6519c5caf2716b759f13adfda95e4ea400f888a7baebe1f49c1319977e90dfcfa2e68e48add18eea4caaf0cfffe2a2ff07#npm:6.6.1"],\
             ["react-scripts", "virtual:66a38074c01dbe8d4e1c5f31866afe6519c5caf2716b759f13adfda95e4ea400f888a7baebe1f49c1319977e90dfcfa2e68e48add18eea4caaf0cfffe2a2ff07#npm:5.0.1"],\
             ["sass", "npm:1.57.1"],\
             ["web-vitals", "npm:2.1.4"]\
@@ -288,7 +289,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__core", null],\
             ["debug", "virtual:b86a9fb34323a98c6519528ed55faa0d9b44ca8879307c0b29aa384bde47ff59a7d0c9051b31246f14521dfb71ba3c5d6d0b35c29fffc17bf875aa6ad977d9e8#npm:4.3.4"],\
             ["lodash.debounce", "npm:4.0.8"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["semver", "npm:6.3.0"]\
           ],\
           "packagePeers": [\
@@ -3788,6 +3789,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@remix-run/router", [\
+        ["npm:1.2.1", {\
+          "packageLocation": "./.yarn/cache/@remix-run-router-npm-1.2.1-b89e8a23a3-71c947f83e.zip/node_modules/@remix-run/router/",\
+          "packageDependencies": [\
+            ["@remix-run/router", "npm:1.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@rollup/plugin-babel", [\
         ["npm:5.3.1", {\
           "packageLocation": "./.yarn/cache/@rollup-plugin-babel-npm-5.3.1-6039a4d033-220d71e464.zip/node_modules/@rollup/plugin-babel/",\
@@ -3834,7 +3844,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["builtin-modules", "npm:3.3.0"],\
             ["deepmerge", "npm:4.2.2"],\
             ["is-module", "npm:1.0.0"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["rollup", "npm:2.79.1"]\
           ],\
           "packagePeers": [\
@@ -5772,7 +5782,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-macros", "npm:3.1.0"],\
             ["@babel/runtime", "npm:7.20.7"],\
             ["cosmiconfig", "npm:7.1.0"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"]\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6361,7 +6371,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chokidar", "npm:3.5.3"],\
             ["anymatch", "npm:3.1.3"],\
             ["braces", "npm:3.0.2"],\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["glob-parent", "npm:5.1.2"],\
             ["is-binary-path", "npm:2.1.0"],\
             ["is-glob", "npm:4.0.3"],\
@@ -6782,6 +6792,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:66a38074c01dbe8d4e1c5f31866afe6519c5caf2716b759f13adfda95e4ea400f888a7baebe1f49c1319977e90dfcfa2e68e48add18eea4caaf0cfffe2a2ff07#npm:13.5.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:66a38074c01dbe8d4e1c5f31866afe6519c5caf2716b759f13adfda95e4ea400f888a7baebe1f49c1319977e90dfcfa2e68e48add18eea4caaf0cfffe2a2ff07#npm:18.2.0"],\
+            ["react-router-dom", "virtual:66a38074c01dbe8d4e1c5f31866afe6519c5caf2716b759f13adfda95e4ea400f888a7baebe1f49c1319977e90dfcfa2e68e48add18eea4caaf0cfffe2a2ff07#npm:6.6.1"],\
             ["react-scripts", "virtual:66a38074c01dbe8d4e1c5f31866afe6519c5caf2716b759f13adfda95e4ea400f888a7baebe1f49c1319977e90dfcfa2e68e48add18eea4caaf0cfffe2a2ff07#npm:5.0.1"],\
             ["sass", "npm:1.57.1"],\
             ["web-vitals", "npm:2.1.4"]\
@@ -8073,7 +8084,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["eslint-import-resolver-node", "npm:0.3.6"],\
             ["debug", "virtual:d9426786c635bc4b52511d6cc4b56156f50d780a698c0e20fc6caf10d3be51cbf176e79cff882f4d42a23ff4d0f89fe94222849578214e7fbae0f2754c82af02#npm:3.2.7"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"]\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8176,7 +8187,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-glob", "npm:4.0.3"],\
             ["minimatch", "npm:3.1.2"],\
             ["object.values", "npm:1.1.6"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["tsconfig-paths", "npm:3.14.1"]\
           ],\
           "packagePeers": [\
@@ -8280,7 +8291,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object.hasown", "npm:1.1.2"],\
             ["object.values", "npm:1.1.6"],\
             ["prop-types", "npm:15.8.1"],\
-            ["resolve", "patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"],\
             ["semver", "npm:6.3.0"],\
             ["string.prototype.matchall", "npm:4.0.8"]\
           ],\
@@ -8998,10 +9009,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["fsevents", [\
-        ["patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7", {\
-          "packageLocation": "./.yarn/unplugged/fsevents-patch-3340e2eb10/node_modules/fsevents/",\
+        ["patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1", {\
+          "packageLocation": "./.yarn/unplugged/fsevents-patch-2882183fbf/node_modules/fsevents/",\
           "packageDependencies": [\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["node-gyp", "npm:9.3.1"]\
           ],\
           "linkType": "HARD"\
@@ -10527,7 +10538,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.11.18"],\
             ["anymatch", "npm:3.1.3"],\
             ["fb-watchman", "npm:2.0.2"],\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["graceful-fs", "npm:4.2.10"],\
             ["jest-regex-util", "npm:27.5.1"],\
             ["jest-serializer", "npm:27.5.1"],\
@@ -10711,7 +10722,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-pnp-resolver", "virtual:a0a4a415f59ab1a920949fe4f9ac7174aa7df535addf97fcdc124f36cb0389a80c8f31f99ad52fa0c7aaa53f66726b763a7b2a27b93255cb52f9164322c0788e#npm:1.2.3"],\
             ["jest-util", "npm:27.5.1"],\
             ["jest-validate", "npm:27.5.1"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["resolve.exports", "npm:1.1.0"],\
             ["slash", "npm:3.0.0"]\
           ],\
@@ -13086,7 +13097,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.20"],\
             ["postcss-value-parser", "npm:4.2.0"],\
             ["read-cache", "npm:1.0.0"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"]\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"]\
           ],\
           "packagePeers": [\
             "@types/postcss",\
@@ -14556,6 +14567,57 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-router", [\
+        ["npm:6.6.1", {\
+          "packageLocation": "./.yarn/cache/react-router-npm-6.6.1-68667fcbd9-58f0ad2912.zip/node_modules/react-router/",\
+          "packageDependencies": [\
+            ["react-router", "npm:6.6.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6309143ae1ac27efb99cc32ce928bc143f06048b8469201f35b7795aebe8ad173a32faca3a5b45bd4e242f75fdf7bdc56d6582d04940a190efaad4ae20086771#npm:6.6.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-router-virtual-2ec77e1680/0/cache/react-router-npm-6.6.1-68667fcbd9-58f0ad2912.zip/node_modules/react-router/",\
+          "packageDependencies": [\
+            ["react-router", "virtual:6309143ae1ac27efb99cc32ce928bc143f06048b8469201f35b7795aebe8ad173a32faca3a5b45bd4e242f75fdf7bdc56d6582d04940a190efaad4ae20086771#npm:6.6.1"],\
+            ["@remix-run/router", "npm:1.2.1"],\
+            ["@types/react", null],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-router-dom", [\
+        ["npm:6.6.1", {\
+          "packageLocation": "./.yarn/cache/react-router-dom-npm-6.6.1-7948c86aa5-68a4419c20.zip/node_modules/react-router-dom/",\
+          "packageDependencies": [\
+            ["react-router-dom", "npm:6.6.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:66a38074c01dbe8d4e1c5f31866afe6519c5caf2716b759f13adfda95e4ea400f888a7baebe1f49c1319977e90dfcfa2e68e48add18eea4caaf0cfffe2a2ff07#npm:6.6.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-router-dom-virtual-6309143ae1/0/cache/react-router-dom-npm-6.6.1-7948c86aa5-68a4419c20.zip/node_modules/react-router-dom/",\
+          "packageDependencies": [\
+            ["react-router-dom", "virtual:66a38074c01dbe8d4e1c5f31866afe6519c5caf2716b759f13adfda95e4ea400f888a7baebe1f49c1319977e90dfcfa2e68e48add18eea4caaf0cfffe2a2ff07#npm:6.6.1"],\
+            ["@remix-run/router", "npm:1.2.1"],\
+            ["@types/react", null],\
+            ["@types/react-dom", null],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:66a38074c01dbe8d4e1c5f31866afe6519c5caf2716b759f13adfda95e4ea400f888a7baebe1f49c1319977e90dfcfa2e68e48add18eea4caaf0cfffe2a2ff07#npm:18.2.0"],\
+            ["react-router", "virtual:6309143ae1ac27efb99cc32ce928bc143f06048b8469201f35b7795aebe8ad173a32faca3a5b45bd4e242f75fdf7bdc56d6582d04940a190efaad4ae20086771#npm:6.6.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-scripts", [\
         ["npm:5.0.1", {\
           "packageLocation": "./.yarn/cache/react-scripts-npm-5.0.1-d06bd2d5ad-92afa2f245.zip/node_modules/react-scripts/",\
@@ -14591,7 +14653,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-webpack-plugin", "virtual:b704d20ee6f0a8093a081fbd3def98bda5abbd27855cf59c30029d5d935070e6ba90814ec756340b0639a6d5c26723e4d0d8a1a9898eb797f7856c2b226f67db#npm:3.2.0"],\
             ["file-loader", "virtual:b704d20ee6f0a8093a081fbd3def98bda5abbd27855cf59c30029d5d935070e6ba90814ec756340b0639a6d5c26723e4d0d8a1a9898eb797f7856c2b226f67db#npm:6.2.0"],\
             ["fs-extra", "npm:10.1.0"],\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["html-webpack-plugin", "virtual:b704d20ee6f0a8093a081fbd3def98bda5abbd27855cf59c30029d5d935070e6ba90814ec756340b0639a6d5c26723e4d0d8a1a9898eb797f7856c2b226f67db#npm:5.5.0"],\
             ["identity-obj-proxy", "npm:3.0.0"],\
             ["jest", "virtual:b704d20ee6f0a8093a081fbd3def98bda5abbd27855cf59c30029d5d935070e6ba90814ec756340b0639a6d5c26723e4d0d8a1a9898eb797f7856c2b226f67db#npm:27.5.1"],\
@@ -14608,7 +14670,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-app-polyfill", "npm:3.0.0"],\
             ["react-dev-utils", "virtual:b704d20ee6f0a8093a081fbd3def98bda5abbd27855cf59c30029d5d935070e6ba90814ec756340b0639a6d5c26723e4d0d8a1a9898eb797f7856c2b226f67db#npm:12.0.1"],\
             ["react-refresh", "npm:0.11.0"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["resolve-url-loader", "virtual:b704d20ee6f0a8093a081fbd3def98bda5abbd27855cf59c30029d5d935070e6ba90814ec756340b0639a6d5c26723e4d0d8a1a9898eb797f7856c2b226f67db#npm:4.0.0"],\
             ["sass-loader", "virtual:b704d20ee6f0a8093a081fbd3def98bda5abbd27855cf59c30029d5d935070e6ba90814ec756340b0639a6d5c26723e4d0d8a1a9898eb797f7856c2b226f67db#npm:12.6.0"],\
             ["semver", "npm:7.3.8"],\
@@ -14852,20 +14914,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["resolve", [\
-        ["patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b", {\
-          "packageLocation": "./.yarn/cache/resolve-patch-46f9469d0d-5656f4d0be.zip/node_modules/resolve/",\
+        ["patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d", {\
+          "packageLocation": "./.yarn/cache/resolve-patch-0c52e0e4f7-5656f4d0be.zip/node_modules/resolve/",\
           "packageDependencies": [\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["is-core-module", "npm:2.11.0"],\
             ["path-parse", "npm:1.0.7"],\
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
         }],\
-        ["patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b", {\
-          "packageLocation": "./.yarn/cache/resolve-patch-bdbf6a2444-4bf9f4f8a4.zip/node_modules/resolve/",\
+        ["patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d", {\
+          "packageLocation": "./.yarn/cache/resolve-patch-34cda421ec-4bf9f4f8a4.zip/node_modules/resolve/",\
           "packageDependencies": [\
-            ["resolve", "patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"],\
             ["is-core-module", "npm:2.11.0"],\
             ["path-parse", "npm:1.0.7"],\
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
@@ -14979,7 +15041,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/rollup-npm-2.79.1-94e707a9a3-6a2bf167b3.zip/node_modules/rollup/",\
           "packageDependencies": [\
             ["rollup", "npm:2.79.1"],\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"]\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -15981,7 +16043,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss-selector-parser", "npm:6.0.11"],\
             ["postcss-value-parser", "npm:4.2.0"],\
             ["quick-lru", "npm:5.1.1"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"]\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"]\
           ],\
           "packagePeers": [\
             "@types/postcss",\
@@ -17421,6 +17483,7 @@ const StringDecoder = require('string_decoder');
 const url = require('url');
 const os = require('os');
 const nodeUtils = require('util');
+const readline = require('readline');
 const assert = require('assert');
 const stream = require('stream');
 const zlib = require('zlib');
@@ -17645,7 +17708,8 @@ function areStatsEqual(a, b) {
 
 const PortablePath = {
   root: `/`,
-  dot: `.`
+  dot: `.`,
+  parent: `..`
 };
 const Filename = {
   nodeModules: `node_modules`,
@@ -21210,7 +21274,7 @@ class ZipOpenFS extends BasePortableFakeFS {
   }
 }
 
-class URLFS extends ProxiedFS {
+class NodePathFS extends ProxiedFS {
   constructor(baseFs) {
     super(npath);
     this.baseFs = baseFs;
@@ -21219,9 +21283,17 @@ class URLFS extends ProxiedFS {
     return path;
   }
   mapToBase(path) {
+    if (typeof path === `string`)
+      return path;
     if (path instanceof url.URL)
       return url.fileURLToPath(path);
-    return path;
+    if (Buffer.isBuffer(path)) {
+      const str = path.toString();
+      if (Buffer.byteLength(str) !== path.byteLength)
+        throw new Error(`Non-utf8 buffers are not supported at the moment. Please upvote the following issue if you encounter this error: https://github.com/yarnpkg/berry/issues/4942`);
+      return str;
+    }
+    throw new Error(`Unsupported path type: ${nodeUtils.inspect(path)}`);
   }
 }
 
@@ -21324,6 +21396,12 @@ class FileHandle {
     } finally {
       this[kUnref]();
     }
+  }
+  readLines(options) {
+    return readline.createInterface({
+      input: this.createReadStream(options),
+      crlfDelay: Infinity
+    });
   }
   async stat(opts) {
     try {
@@ -21510,7 +21588,7 @@ const ASYNC_IMPLEMENTATIONS = /* @__PURE__ */ new Set([
   `writeSync`
 ]);
 function patchFs(patchedFs, fakeFs) {
-  fakeFs = new URLFS(fakeFs);
+  fakeFs = new NodePathFS(fakeFs);
   const setupFn = (target, name, replacement) => {
     const orig = target[name];
     target[name] = replacement;
@@ -26020,6 +26098,9 @@ function getPathForDisplay(p) {
   return npath.normalize(npath.fromPortablePath(p));
 }
 
+const [major, minor] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
+const WATCH_MODE_MESSAGE_USES_ARRAYS = major > 19 || major === 19 && minor >= 2;
+
 const builtinModules = new Set(require$$0.Module.builtinModules || Object.keys(process.binding(`natives`)));
 const isBuiltinModule = (request) => request.startsWith(`node:`) || builtinModules.has(request);
 function readPackageScope(checkPath) {
@@ -26054,13 +26135,19 @@ Instead change the require of ${basename} in ${parentPath} to a dynamic import()
   err.code = `ERR_REQUIRE_ESM`;
   return err;
 }
-
-const shouldReportRequiredModules = process.env.WATCH_REPORT_DEPENDENCIES;
-function reportModuleToWatchMode(filename) {
-  if (shouldReportRequiredModules && process.send) {
-    process.send({ "watch:require": npath.fromPortablePath(VirtualFS.resolveVirtual(npath.toPortablePath(filename))) });
+function reportRequiredFilesToWatchMode(files) {
+  if (process.env.WATCH_REPORT_DEPENDENCIES && process.send) {
+    files = files.map((filename) => npath.fromPortablePath(VirtualFS.resolveVirtual(npath.toPortablePath(filename))));
+    if (WATCH_MODE_MESSAGE_USES_ARRAYS) {
+      process.send({ "watch:require": files });
+    } else {
+      for (const filename of files) {
+        process.send({ "watch:require": filename });
+      }
+    }
   }
 }
+
 function applyPatch(pnpapi, opts) {
   const defaultCache = {};
   let enableNativeHooks = true;
@@ -26120,7 +26207,7 @@ function applyPatch(pnpapi, opts) {
     }
     const module = new require$$0.Module(modulePath, parent != null ? parent : void 0);
     module.pnpApiPath = moduleApiPath;
-    reportModuleToWatchMode(modulePath);
+    reportRequiredFilesToWatchMode([modulePath]);
     entry.cache[modulePath] = module;
     if (isMain) {
       process.mainModule = module;
@@ -27478,6 +27565,7 @@ Required by: ${issuerLocator.name}@${issuerLocator.reference} (via ${issuerForDi
     if (qualifiedPath) {
       return ppath.normalize(qualifiedPath);
     } else {
+      reportRequiredFilesToWatchMode(candidates.map((candidate) => npath.fromPortablePath(candidate)));
       const unqualifiedPathForDisplay = getPathForDisplay(unqualifiedPath);
       const containingPackage = findPackageLocator(unqualifiedPath);
       if (containingPackage) {
